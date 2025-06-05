@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+.page{
+ background: #fef3d1;
+}
+.nav{
+  margin: 0px;
+  padding: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  justify-content: space-between;
+  display: flex;
+  font:Outfit;
+}
+.side-nav{
+  display: flex;
+  gap: 20px;
+  color: black;
+
+}
+.contact-btn{
+  border-radius: 10px;
+  background-color:#00A76F;
+  color: white;
+  border: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+.card{
+ height: 150px;
+ width: 332px;
+margin-bottom: 0px;
+padding-bottom: 0px;
+ display: flex;
+ gap: 10px;
+margin-bottom: 0px;
+}
+
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+/* Circle 1 - top and center */
+.top-center {
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Circle 2 - below first, towards left */
+.bottom-left {
+  top: 200px;
+  left: 10%;
+}
+
+/* Circle 3 - below first, towards right */
+.bottom-right {
+  top: 200px;
+  right: 10%;
+}
+
+/* Circle 4 - below second */
+.bottom-left-lower {
+  top: 350px;
+  left: 10%;
+}
+
+/* Circle 5 - below third */
+.bottom-right-lower {
+  top: 350px;
+  right: 10%;
+}
