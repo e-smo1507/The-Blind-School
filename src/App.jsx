@@ -13,9 +13,11 @@ import calc from "./assets/calc.png"
 import  study from "./assets/study.png"
 import './App.css'
 import Footer from './Footer'
+import Feedback from './feedback.jsx'
 import DottedPath from './DottedPath'
 import About from './About.jsx'
 import Appreciate from './Appreciate.jsx'
+import Folder from './Folder.jsx'
 function App() {
 
   return (
@@ -111,6 +113,9 @@ function App() {
  <Footer/>
  <About/>
  <Appreciate/>
+ <Feedback/>
+ <Folder/>
+ 
     </div>
   )
 }

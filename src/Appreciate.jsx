@@ -14,7 +14,7 @@ import green from './assets/green.png'
 const Appreciate = () => {
   return (
     <>
-<div className="w-full h-[818px] bg-white relative ">
+<div className="w-full h-[800px] bg-white relative ">
   <div className="w-[1320px] h-[738px] rounded-[24px] p-[40px] absolute top-[40px] left-[60px]">
     
     {/* Centered Image + Heading */}
@@ -35,7 +35,7 @@ const Appreciate = () => {
       <img src={startinup} alt="Image 8" className="w-[200px] h-auto rounded" />
       <img src={dpiit} alt="Image 9" className="w-[200px] h-auto rounded" />
       <img src={mahakumbh} alt="Image 10" className="w-[200px] h-auto rounded" />
-      <img src={up} alt="Image 11" className="w-[200px] h-auto rounded" />
+      {/* <img src={up} alt="Image 11" className="w-[200px] h-auto rounded" /> */}
     </section>
   </div>
 </div>
