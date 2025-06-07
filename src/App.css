@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .page{
- background: #fef3d1;
+ background: linear-gradient(to right, #FEF5DB, #FFDFDF);
 }
 .nav{
   margin: 0px;

@@ -18,6 +18,8 @@ import DottedPath from './DottedPath'
 import About from './About.jsx'
 import Appreciate from './Appreciate.jsx'
 import Folder from './Folder.jsx'
+import Scanner from './scanner.jsx'
+import Contact from './Contact.jsx'
 function App() {
 
   return (
@@ -30,7 +32,7 @@ function App() {
 <a href='/'>Home</a>
 <a href='/About'>About</a>
 <a href='/DownloadApp'>DownloadApp</a>
-<a href='Contact Us'>
+<a href='/Contact Us'>
   <button className='contact-btn'>Contact us</button>
 </a>
 </div>
@@ -59,7 +61,7 @@ function App() {
 </div>
 <span className='flex gap-10 bg-white'> 
 
-  <span className='rounded-[15px] bg-[#FEF5F5] mt-[200px] border-2 border-blue-500'>
+  <span className='rounded-[15px] bg-gradient-to-r from-[#FEF5DB] to-[#FFDFDF]  mt-[200px] border-2 border-blue-500'>
 <span className='card'> 
   <span><img src = {note} width = '98' height = '88' className='mt-10 ml-3'/></span>
   <span className='mt-[50px] font-bold '>Benefits of our Special School</span>
@@ -115,7 +117,8 @@ function App() {
  <Appreciate/>
  <Feedback/>
  <Folder/>
- 
+ <Scanner/>
+ <Contact/>
     </div>
   )
 }
